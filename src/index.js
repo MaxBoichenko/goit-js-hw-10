@@ -1,7 +1,7 @@
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
 import fetchCountries from './js/fetchCountries';
-import refs from './js/refs';
+import { refs } from './js/refs';
 import { createMarkupWithCountry, resetMarkup } from './js/createMarkup';
 
 const DEBOUNCE_DELAY = 300;
